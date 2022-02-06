@@ -1,0 +1,176 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(17, 108, 245);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    height : 50px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-right: 30px; 
+}
+.header > div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header :first-child{
+    font-size: 20px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+.btn{
+    height: 10px;
+    font-size: 12px;
+    margin-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: rgb(68, 193, 232);
+    box-shadow: 2px 2px  rgb(14, 14, 186);
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    box-shadow: 2px 2px 2px 2px  #ccc;
+}
+.body{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    align-items: center;
+    justify-content:center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    padding-right: 20px;
+}
+h1{
+    margin: 0;
+    font-size:18px;
+    font-weight: 100;
+    color: #555;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+}
+.input > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+}
+input[type = "text"], input[type = "Number"]{
+    border : none;
+    margin: none;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+input[type = "text"],input[type = "Number"]:focus{
+    border: none;
+    margin: none;
+    outline: none;
+    border-bottom: 2px solid green;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.button{
+    background-color: rgb(4, 4, 202);
+    display: flex;
+    width: 110px;
+    align-items: center;
+    justify-content:center;
+    color: white;
+    font-size: .8rem;
+    padding: 3px;
+    border-radius: 2px;
+    box-shadow: 1px 1px #555;
+    cursor: pointer;
+}
+.total{
+    font-size: 30px;
+}
+.total span{
+    font-size:30px;
+}
+.edit-state{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.ud{
+    display: flex;
+    flex-direction:row;
+    gap: 3px;
+}
+.update{
+    background-color: orange;
+    padding-top : 5px;
+    padding-bottom: 5px;
+}
+.delete{
+    background-color:orangered;
+}
+.back{
+    background-color:rgb(123, 117, 117)
+}
+.result{
+    display: flex;
+    flex-direction:column;
+    width: 75vw;
+    align-items: center;
+    align-items: flex-start;
+    padding-left: 5px;
+    border-radius: 2px;
+    padding-top : 5px;
+}
+.li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:space-between;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;;
+    padding-top: 5px;
+    border: 1px solid #555;
+}
+.li p{
+    margin : 0;
+}
+.li div{
+    cursor:  pointer;
+    color: green;
+}
+.group{
+    display : flex;
+    width: 50%;
+    justify-content:space-between;
+}
